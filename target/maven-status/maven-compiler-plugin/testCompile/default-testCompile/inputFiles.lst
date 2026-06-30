@@ -1,0 +1,7 @@
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\CandidateTransformerApplicationTests.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\extractor\CsvDataExtractorTest.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\extractor\ResumeDataExtractorTest.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\extractor\TxtDataExtractorTest.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\merger\DefaultMergerTest.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\normalizer\DefaultNormalizerTest.java
+D:\PROJECT FOLDERS\Candidate Profile Transformer\src\test\java\com\candidate\transformer\projection\DefaultProjectionEngineTest.java

@@ -1,0 +1,7 @@
+Candidate Name: John Doe
+Email: john.doe@example.com
+Phone: +1 123-456-7890
+Skills: Microservices, AWS
+Experience: 5+ years of experience
+LinkedIn: linkedin.com/in/johndoe
+GitHub: github.com/johndoe

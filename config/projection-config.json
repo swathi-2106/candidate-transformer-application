@@ -1,0 +1,63 @@
+{
+  "fields": [
+    {
+      "fieldName": "id",
+      "include": true,
+      "renameTo": "candidateId",
+      "missingValuePolicy": "ERROR"
+    },
+    {
+      "fieldName": "name",
+      "include": true,
+      "renameTo": "fullName",
+      "normalization": "WHITESPACE",
+      "missingValuePolicy": "ERROR"
+    },
+    {
+      "fieldName": "email",
+      "include": true,
+      "renameTo": "emailAddress",
+      "normalization": "LOWERCASE",
+      "missingValuePolicy": "ERROR",
+      "includeConfidence": true
+    },
+    {
+      "fieldName": "phone",
+      "include": true,
+      "renameTo": "phoneNumber",
+      "missingValuePolicy": "NULL"
+    },
+    {
+      "fieldName": "location",
+      "include": true,
+      "renameTo": "address",
+      "missingValuePolicy": "OMIT"
+    },
+    {
+      "fieldName": "skills",
+      "include": true,
+      "renameTo": "skillsList",
+      "missingValuePolicy": "DEFAULT",
+      "defaultValue": []
+    },
+    {
+      "fieldName": "experiences",
+      "include": true,
+      "renameTo": "workHistory",
+      "missingValuePolicy": "DEFAULT",
+      "defaultValue": []
+    },
+    {
+      "fieldName": "educations",
+      "include": true,
+      "renameTo": "academicHistory",
+      "missingValuePolicy": "DEFAULT",
+      "defaultValue": []
+    }
+  ],
+  "outputFormat": "JSON",
+  "includeProvenance": true,
+  "includeConfidence": true,
+  "missingValuePolicy": "NULL",
+  "schemaValidation": true
+}

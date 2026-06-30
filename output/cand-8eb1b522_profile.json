@@ -1,0 +1,97 @@
+{
+  "candidateId" : "cand-8eb1b522",
+  "fullName" : "John Doe",
+  "emailAddress" : "john.doe@example.com",
+  "emailAddressConfidence" : {
+    "score" : 0.8,
+    "reasons" : [ "Name present", "Email present", "Phone present", "Profile links present", "Skills present: 4", "Experience entries present: 1", "Merged provenance available", "Profile has sufficient canonical evidence" ]
+  },
+  "phoneNumber" : "+1-123-456-7890",
+  "skillsList" : [ {
+    "name" : "Microservices",
+    "yearsOfExperience" : null,
+    "level" : null,
+    "confidence" : {
+      "score" : 0.85,
+      "reasons" : [ "Extracted from unstructured notes skills label" ]
+    },
+    "provenance" : {
+      "sourceId" : "txt-1782845266890",
+      "extractedAt" : [ 2026, 7, 1, 0, 17, 46, 893466600 ],
+      "extractionMethod" : "TXT Notes Extractor",
+      "originalValue" : "Microservices"
+    }
+  }, {
+    "name" : "AWS",
+    "yearsOfExperience" : null,
+    "level" : null,
+    "confidence" : {
+      "score" : 0.85,
+      "reasons" : [ "Extracted from unstructured notes skills label" ]
+    },
+    "provenance" : {
+      "sourceId" : "txt-1782845266890",
+      "extractedAt" : [ 2026, 7, 1, 0, 17, 46, 893466600 ],
+      "extractionMethod" : "TXT Notes Extractor",
+      "originalValue" : "AWS"
+    }
+  }, {
+    "name" : "Java",
+    "yearsOfExperience" : null,
+    "level" : null,
+    "confidence" : {
+      "score" : 0.85,
+      "reasons" : [ "Extracted from recruiter spreadsheet skills tag" ]
+    },
+    "provenance" : {
+      "sourceId" : "csv-1782845266912",
+      "extractedAt" : [ 2026, 7, 1, 0, 17, 46, 913499900 ],
+      "extractionMethod" : "CSV Extractor",
+      "originalValue" : "Java"
+    }
+  }, {
+    "name" : "Spring Boot",
+    "yearsOfExperience" : null,
+    "level" : null,
+    "confidence" : {
+      "score" : 0.85,
+      "reasons" : [ "Extracted from recruiter spreadsheet skills tag" ]
+    },
+    "provenance" : {
+      "sourceId" : "csv-1782845266912",
+      "extractedAt" : [ 2026, 7, 1, 0, 17, 46, 913499900 ],
+      "extractionMethod" : "CSV Extractor",
+      "originalValue" : "Spring Boot"
+    }
+  } ],
+  "workHistory" : [ {
+    "company" : "Various / Historic",
+    "role" : "Professional Experience",
+    "startDate" : [ 2021, 7, 1 ],
+    "endDate" : [ 2026, 7, 1 ],
+    "description" : "5+ YOE stated in unstructured notes",
+    "skillsUsed" : [ ],
+    "location" : null,
+    "confidence" : {
+      "score" : 0.74,
+      "reasons" : [ "Years of experience inferred from unstructured notes" ]
+    },
+    "provenance" : {
+      "sourceId" : "txt-1782845266890",
+      "extractedAt" : [ 2026, 7, 1, 0, 17, 46, 893466600 ],
+      "extractionMethod" : "TXT Notes Extractor",
+      "originalValue" : "5+ years"
+    }
+  } ],
+  "academicHistory" : [ ],
+  "provenance" : {
+    "sourceId" : "txt-1782845266890,csv-1782845266912",
+    "extractedAt" : [ 2026, 7, 1, 0, 17, 48, 300498700 ],
+    "extractionMethod" : "Deterministic Merge Engine",
+    "originalValue" : "Merged 2 normalized profiles"
+  },
+  "confidence" : {
+    "score" : 0.8,
+    "reasons" : [ "Name present", "Email present", "Phone present", "Profile links present", "Skills present: 4", "Experience entries present: 1", "Merged provenance available", "Profile has sufficient canonical evidence" ]
+  }
+}

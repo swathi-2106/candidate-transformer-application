@@ -1,0 +1,7 @@
+com\candidate\transformer\extractor\CsvDataExtractorTest.class
+com\candidate\transformer\extractor\ResumeDataExtractorTest.class
+com\candidate\transformer\merger\DefaultMergerTest.class
+com\candidate\transformer\normalizer\DefaultNormalizerTest.class
+com\candidate\transformer\projection\DefaultProjectionEngineTest.class
+com\candidate\transformer\CandidateTransformerApplicationTests.class
+com\candidate\transformer\extractor\TxtDataExtractorTest.class
